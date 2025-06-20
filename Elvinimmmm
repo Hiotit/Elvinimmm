@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Elvin'e Özel</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #ffe6e6;
+            font-family: 'Arial', sans-serif;
+            margin-top: 100px;
+        }
+        button {
+            background-color: #ff4d4d;
+            color: white;
+            padding: 15px 30px;
+            font-size: 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        #mesaj {
+            margin-top: 30px;
+            font-size: 24px;
+            color: #b30000;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Sevgilim Elvin'e</h1>
+    <button onclick="goster()">Tıkla ❤️</button>
+    <div id="mesaj"></div>
+
+    <script>
+        function goster() {
+            document.getElementById("mesaj").innerText = "Elvin’im seni çok seviyorum 💖";
+        }
+    </script>
+
+</body>
+</html>
